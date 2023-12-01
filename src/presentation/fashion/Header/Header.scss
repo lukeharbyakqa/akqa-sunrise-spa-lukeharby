@@ -36,6 +36,14 @@
 
 .logo {
   a {
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    div {
+      font-size: 12px;
+    }
+
     &.logo-none {
       display: block;
     }
@@ -333,6 +341,10 @@
     opacity: 0;
     width: 100%;
     z-index: 99999;
+  }
+
+  .main-wrapper {
+    background-color: orange;
   }
 
   &.overlay-active .body-overlay,
@@ -694,7 +706,8 @@
           left: 0;
           background-color: #fff;
           box-shadow: 0 0 38px 0 rgba(41, 44, 58, 0.09);
-          transition: margin 0.1s linear 0.3s, visibility 0.1s linear 0.3s,
+          transition: margin 0.1s linear 0.3s,
+            visibility 0.1s linear 0.3s,
             opacity 0.1s linear 0.3s;
 
           li {
@@ -2055,7 +2068,8 @@
           left: 100%;
           background-color: #fff;
           box-shadow: 0 0 38px 0 rgba(41, 44, 58, 0.09);
-          transition: margin 0.1s linear 0.3s, visibility 0.1s linear 0.3s,
+          transition: margin 0.1s linear 0.3s,
+            visibility 0.1s linear 0.3s,
             opacity 0.1s linear 0.3s;
 
           li {

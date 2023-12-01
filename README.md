@@ -1,5 +1,7 @@
 # CommerceTools demo project - Vue SunriseSPA
 
+Cloned from https://github.com/commercetools/sunrise-spa
+
 ## Links
 
 [Demo Sunrise website](https://demo.commercetools.com/)

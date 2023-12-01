@@ -3,7 +3,7 @@
 <script src="./ProductList.js"></script>
 
 <template>
-  <div class="shop-area pb-100">
+  <div class="shop-area bg-light pb-100">
     <div v-if="error">
       <pre>{{ JSON.stringify(error, undefined, 2) }}</pre>
     </div>

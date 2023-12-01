@@ -47,32 +47,23 @@
         </div>
       </div>
       <div class="site-header-outer">
-        <div class="intelligent-header bg-white">
+        <div class="intelligent-header bg-light">
           <div class="header-middle">
             <div class="custom-container">
               <div class="row align-items-center">
                 <div class="col-xl-2 col-lg-3">
                   <div class="logo">
-                    <router-link to="/">
-                      <img
-                        :src="
-                          require('presentation/assets/img/logo.svg')
-                        "
-                        alt="SUNRISE"
-                        class="img-responsive sunrise-logo"
-                      />
-                    </router-link>
+                    <router-link to="/"
+                      >AKQA
+                      <div>Commercetools</div></router-link
+                    >
                   </div>
                 </div>
                 <div
                   class="col-xl-8 col-lg-6 position-static"
                 >
                   <div
-                    class="
-                      main-menu
-                      menu-lh-3
-                      main-menu-blod main-menu-center
-                    "
+                    class="main-menu menu-lh-3 main-menu-blod main-menu-center"
                   >
                     <CategoriesMenu />
                   </div>

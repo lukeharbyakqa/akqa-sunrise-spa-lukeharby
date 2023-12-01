@@ -2,6 +2,10 @@
 <script src="./CategoriesMenu.js"></script>
 
 <template>
+  {{
+    // eslint-disable-next-line no-console
+    console.log(categories)
+  }}
   <nav>
     <ul v-if="categories && categories.length">
       <li

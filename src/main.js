@@ -24,3 +24,5 @@ const app = createApp({
   .use(router);
 
 app.mount('#app');
+
+app.config.globalProperties.console = console;
